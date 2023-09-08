@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/socialNetWorkWithNewRouting/static/css/main.de8553be.css",
+    "main.js": "/socialNetWorkWithNewRouting/static/js/main.24736cb1.js",
+    "static/media/beach-sea-coast.jpg": "/socialNetWorkWithNewRouting/static/media/beach-sea-coast.7bcbb0843b6c791905ff.jpg",
+    "static/media/dima.jpg": "/socialNetWorkWithNewRouting/static/media/dima.86a15627e8c6d8963bbc.jpg",
+    "index.html": "/socialNetWorkWithNewRouting/index.html",
+    "main.de8553be.css.map": "/socialNetWorkWithNewRouting/static/css/main.de8553be.css.map",
+    "main.24736cb1.js.map": "/socialNetWorkWithNewRouting/static/js/main.24736cb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de8553be.css",
+    "static/js/main.24736cb1.js"
+  ]
+}
