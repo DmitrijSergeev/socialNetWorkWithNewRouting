@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DmitrijSergeev/socialNetWorkWithNewRouting/static/css/main.de8553be.css",
-    "main.js": "/DmitrijSergeev/socialNetWorkWithNewRouting/static/js/main.84493664.js",
-    "static/media/beach-sea-coast.jpg": "/DmitrijSergeev/socialNetWorkWithNewRouting/static/media/beach-sea-coast.7bcbb0843b6c791905ff.jpg",
-    "static/media/dima.jpg": "/DmitrijSergeev/socialNetWorkWithNewRouting/static/media/dima.86a15627e8c6d8963bbc.jpg",
-    "index.html": "/DmitrijSergeev/socialNetWorkWithNewRouting/index.html",
-    "main.de8553be.css.map": "/DmitrijSergeev/socialNetWorkWithNewRouting/static/css/main.de8553be.css.map",
-    "main.84493664.js.map": "/DmitrijSergeev/socialNetWorkWithNewRouting/static/js/main.84493664.js.map"
+    "main.css": "/socialNetWorkWithNewRouting/static/css/main.de8553be.css",
+    "main.js": "/socialNetWorkWithNewRouting/static/js/main.a5c78cbd.js",
+    "static/media/beach-sea-coast.jpg": "/socialNetWorkWithNewRouting/static/media/beach-sea-coast.7bcbb0843b6c791905ff.jpg",
+    "static/media/dima.jpg": "/socialNetWorkWithNewRouting/static/media/dima.86a15627e8c6d8963bbc.jpg",
+    "index.html": "/socialNetWorkWithNewRouting/index.html",
+    "main.de8553be.css.map": "/socialNetWorkWithNewRouting/static/css/main.de8553be.css.map",
+    "main.a5c78cbd.js.map": "/socialNetWorkWithNewRouting/static/js/main.a5c78cbd.js.map"
   },
   "entrypoints": [
     "static/css/main.de8553be.css",
-    "static/js/main.84493664.js"
+    "static/js/main.a5c78cbd.js"
   ]
 }
