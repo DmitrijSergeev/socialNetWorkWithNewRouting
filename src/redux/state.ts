@@ -1,3 +1,5 @@
+import {rerenderEntireTree} from "../index";
+
 export type StateType = {
     profileData: ProfileDataType
     messageData: MessageDataType
@@ -32,7 +34,8 @@ export let state = {
                 message: 'Never say never',
                 likesCount: 23
             },
-        ]
+        ],
+        newPostText: ''
     },
     messageData: {
         dialogsData: [
@@ -48,11 +51,18 @@ export let state = {
         ]
     }
 }
-export let addPost = (postMessage: string) => {
+
+export let addPost = () => {
     let newPost = {
         id: 5,
-        message: postMessage,
+        message: state.profileData.newPostText,
         likesCount: 14
     }
     state.profileData.postData.push(newPost);
+    rerenderEntireTree(state);
+}
+export let updatePost = (newText: string) => {
+
+    state.profileData.newPostText = newText;
+    rerenderEntireTree(state);
 }

@@ -1,4 +1,4 @@
-import React, {RefObject} from 'react';
+import React, {ChangeEvent, RefObject} from 'react';
 import {Post} from "./post/Post";
 
 export type MyPostsType = {
@@ -8,6 +8,8 @@ export type MyPostsType = {
 export type MyPropsPostType = {
     postData: MyPostsType[]
     addPost: (postMessage: string)=>void
+    newPostText: string
+    updatePost: (newText: string)=>void
 }
 
 export const MyPosts = (props: MyPropsPostType) => {
@@ -16,12 +18,18 @@ export const MyPosts = (props: MyPropsPostType) => {
     const onCklickHandler = () => {
         props.addPost(String(newPostElement.current?.value))
     }
+    const onChangePostHandler = () => {
+        props.updatePost(String(newPostElement.current?.value))
+    }
 
     return (
         <div>
             <h3>My posts</h3>
             <div>
-                <textarea ref={newPostElement}></textarea>
+                <textarea ref={newPostElement}
+                          value={props.newPostText}
+                          onChange={onChangePostHandler}
+                />
                 <button onClick={ onCklickHandler }>Add post</button>
             </div>
             <Post postData={props.postData}/>
