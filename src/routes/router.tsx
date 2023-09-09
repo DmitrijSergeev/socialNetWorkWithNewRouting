@@ -5,7 +5,7 @@ import {Profile} from "../components/profile/Profile";
 import {Dialogs} from "../components/dialogs/Dialogs";
 import {News} from "../components/news/News";
 import {Music} from "../components/music/Music";
-import {state} from "../redux/state";
+import {state, addPost} from "../redux/state";
 
 export const router = createBrowserRouter([
     {
@@ -16,7 +16,10 @@ export const router = createBrowserRouter([
             {
                 path: "/profile",
                 element: (
-                    <Profile postData={state.profileData.postData}/>
+                    <Profile
+                        postData={state.profileData.postData}
+                        addPost={addPost}
+                    />
                 ),
             },
             {

@@ -48,3 +48,11 @@ export let state = {
         ]
     }
 }
+export let addPost = (postMessage: string) => {
+    let newPost = {
+        id: 5,
+        message: postMessage,
+        likesCount: 14
+    }
+    state.profileData.postData.push(newPost);
+}
